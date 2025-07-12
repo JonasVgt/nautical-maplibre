@@ -379,6 +379,45 @@
       }
     },
     {
+      "id": "pier-casing",
+      "type": "line",
+      "source": "nautical",
+      "source-layer": "transportation",
+      "minzoom": 15,
+      "filter": ["all", ["==", "class", "pier"], ["==", "$type", "LineString"]],
+      "paint": {"line-width": {"stops": [[15, 0], [20, 10]]}}
+    },
+    {
+      "id": "pier-area-casing",
+      "type": "line",
+      "source": "nautical",
+      "source-layer": "transportation",
+      "minzoom": 15,
+      "filter": ["all", ["==", "class", "pier"], ["==", "$type", "Polygon"]],
+      "paint": {"line-width": {"stops": [[15, 0], [20, 4]]}}
+    },
+    {
+      "id": "pier-area",
+      "type": "fill",
+      "source": "nautical",
+      "source-layer": "transportation",
+      "minzoom": 15,
+      "filter": ["all", ["==", "class", "pier"], ["==", "$type", "Polygon"]],
+      "paint": {"fill-color": "rgba(218, 166, 96, 1)"}
+    },
+    {
+      "id": "pier",
+      "type": "line",
+      "source": "nautical",
+      "source-layer": "transportation",
+      "minzoom": 15,
+      "filter": ["all", ["==", "class", "pier"], ["==", "$type", "LineString"]],
+      "paint": {
+        "line-width": {"stops": [[15, 0], [20, 8]]},
+        "line-color": "rgba(218, 166, 96, 1)"
+      }
+    },
+    {
       "id": "road_motorway_link_casing",
       "type": "line",
       "source": "nautical",
