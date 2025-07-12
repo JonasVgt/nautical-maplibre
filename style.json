@@ -24,6 +24,18 @@
       "paint": {"fill-color": "rgba(150, 214, 234, 1)"}
     },
     {
+      "id": "landuse_residential",
+      "type": "fill",
+      "source": "nautical",
+      "source-layer": "landuse",
+      "maxzoom": 14,
+      "filter": ["all", ["==", "class", "residential"]],
+      "paint": {
+        "fill-color": "rgba(183, 150, 83, 1)",
+        "fill-opacity": {"stops": [[13, 1], [14, 0]]}
+      }
+    },
+    {
       "id": "tunnel_motorway_link_casing",
       "type": "line",
       "source": "nautical",
@@ -1049,7 +1061,10 @@
       "source": "nautical",
       "source-layer": "building",
       "minzoom": 13,
-      "paint": {"fill-color": "rgba(183, 150, 83, 1)"}
+      "paint": {
+        "fill-color": "rgba(183, 150, 83, 1)",
+        "fill-opacity": {"stops": [[13, 0], [14, 1]]}
+      }
     }
   ],
   "id": "b6grwp9yh",
