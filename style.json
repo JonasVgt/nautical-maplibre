@@ -2,10 +2,28 @@
   "version": 8,
   "name": "Nautical Style",
   "metadata": {"maputnik:renderer": "mbgljs"},
-  "sources": {},
+  "sources": {
+    "nautical": {
+      "type": "vector",
+      "url": "http://localhost:8080/data/nautical.json"
+    }
+  },
   "sprite": "",
   "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
-  "layers": [{"id": "background", "type": "background"}],
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {"background-color": "rgba(232, 200, 129, 1)"}
+    },
+    {
+      "id": "water",
+      "type": "fill",
+      "source": "nautical",
+      "source-layer": "water",
+      "paint": {"fill-color": "rgba(150, 214, 234, 1)"}
+    }
+  ],
   "id": "b6grwp9yh",
   "owner": "Jonas Voigt"
 }
