@@ -1,0 +1,11 @@
+{
+  "version": 8,
+  "name": "Nautical Style",
+  "metadata": {"maputnik:renderer": "mbgljs"},
+  "sources": {},
+  "sprite": "",
+  "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
+  "layers": [{"id": "background", "type": "background"}],
+  "id": "b6grwp9yh",
+  "owner": "Jonas Voigt"
+}
