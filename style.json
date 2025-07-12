@@ -22,6 +22,14 @@
       "source": "nautical",
       "source-layer": "water",
       "paint": {"fill-color": "rgba(150, 214, 234, 1)"}
+    },
+    {
+      "id": "building",
+      "type": "fill",
+      "source": "nautical",
+      "source-layer": "building",
+      "minzoom": 13,
+      "paint": {"fill-color": "rgba(183, 150, 83, 1)"}
     }
   ],
   "id": "b6grwp9yh",
