@@ -1250,6 +1250,37 @@
         "text-halo-color": "rgba(255,255,255,0.8)",
         "text-halo-width": 1.2
       }
+    },
+    {
+      "id": "harbour",
+      "type": "symbol",
+      "source": "nautical",
+      "source-layer": "seamarks",
+      "minzoom": 7,
+      "filter": ["all", ["==", "class", "harbour"]],
+      "layout": {
+        "text-field": {"stops": [[9, ""], [10, "{name}"]]},
+        "text-font": ["Roboto Light"],
+        "icon-image": [
+          "match",
+          ["get", "subclass"],
+          "marina",
+          "marina",
+          "marina_no_facilities",
+          "marina_no_facilities",
+          "harbour"
+        ],
+        "icon-size": {"stops": [[7, 0.1], [15, 0.5], [20, 1]]},
+        "text-anchor": "top",
+        "text-offset": {"stops": [[7, [0, 0.7]], [15, [0, 2]], [20, [0, 4]]]},
+        "text-line-height": 1,
+        "text-optional": true
+      },
+      "paint": {
+        "text-color": "rgba(163, 0, 117, 1)",
+        "text-halo-width": 1,
+        "text-halo-color": "#fff"
+      }
     }
   ],
   "id": "b6grwp9yh",
