@@ -1331,14 +1331,8 @@
           ],
           "/",
           [
-            "case",
-            ["has", "colour"],
-            [
-              "case",
-              ["has", "colour_pattern"],
-              ["concat", ["get", "colour_pattern"], "/", ["get", "colour"]],
-              ["get", "colour"]
-            ],
+            "coalesce",
+            ["get", "pattern"],
             [
               "match",
               ["get", "subclass"],
@@ -1399,14 +1393,8 @@
           ],
           "/",
           [
-            "case",
-            ["has", "colour"],
-            [
-              "case",
-              ["has", "colour_pattern"],
-              ["concat", ["get", "colour_pattern"], "/", ["get", "colour"]],
-              ["get", "colour"]
-            ],
+            "coalesce",
+            ["get", "pattern"],
             [
               "match",
               ["get", "subclass"],
