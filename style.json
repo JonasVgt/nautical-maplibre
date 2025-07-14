@@ -1297,6 +1297,44 @@
       }
     },
     {
+      "id": "buoy_cardinal_topmark",
+      "type": "symbol",
+      "source": "nautical",
+      "source-layer": "beacon_buoy",
+      "minzoom": 10,
+      "filter": ["all", ["in", "class", "buoy_cardinal"]],
+      "layout": {
+        "icon-size": {"stops": [[10, 0.2], [18, 0.5], [20, 1]]},
+        "icon-anchor": "bottom",
+        "icon-image": [
+          "concat",
+          "topmark/",
+          [
+            "coalesce",
+            ["get", "topmark_shape"],
+            [
+              "match",
+              ["get", "subclass"],
+              "north",
+              "2_cones_up",
+              "east",
+              "2_cones_base_together",
+              "south",
+              "2_cones_down",
+              "west",
+              "2_cones_point_together",
+              ""
+            ]
+          ],
+          "/",
+          ["coalesce", ["get", "topmark_pattern"], "black"]
+        ],
+        "icon-offset": [0, -105],
+        "icon-rotate": 19,
+        "icon-allow-overlap": true
+      }
+    },
+    {
       "id": "buoy_cardinal",
       "type": "symbol",
       "source": "nautical",
@@ -1352,10 +1390,46 @@
         "text-font": ["Roboto Light Italic"],
         "icon-size": {"stops": [[10, 0.2], [18, 0.5], [20, 1]]},
         "text-anchor": "top",
-        "text-offset": {
-          "stops": [[10, [0, 0.6]], [18, [0, 1.8]], [20, [0, 4]]]
-        },
-        "text-optional": true
+        "text-optional": true,
+        "icon-anchor": "bottom",
+        "icon-offset": [0, 13]
+      }
+    },
+    {
+      "id": "beacon_cardinal_topmark",
+      "type": "symbol",
+      "source": "nautical",
+      "source-layer": "beacon_buoy",
+      "minzoom": 10,
+      "filter": ["all", ["in", "class", "beacon_cardinal"]],
+      "layout": {
+        "icon-size": {"stops": [[10, 0.2], [18, 0.5], [20, 1]]},
+        "icon-anchor": "bottom",
+        "icon-image": [
+          "concat",
+          "topmark/",
+          [
+            "coalesce",
+            ["get", "topmark_shape"],
+            [
+              "match",
+              ["get", "subclass"],
+              "north",
+              "2_cones_up",
+              "east",
+              "2_cones_base_together",
+              "south",
+              "2_cones_down",
+              "west",
+              "2_cones_point_together",
+              ""
+            ]
+          ],
+          "/",
+          ["coalesce", ["get", "topmark_pattern"], "black"]
+        ],
+        "icon-offset": [0, -76],
+        "icon-allow-overlap": true
       }
     },
     {
@@ -1414,10 +1488,9 @@
         "text-font": ["Roboto Light Italic"],
         "icon-size": {"stops": [[10, 0.2], [18, 0.5], [20, 1]]},
         "text-anchor": "top",
-        "text-offset": {
-          "stops": [[10, [0, 0.6]], [18, [0, 1.8]], [20, [0, 4]]]
-        },
-        "text-optional": true
+        "text-optional": true,
+        "icon-anchor": "bottom",
+        "icon-offset": [0, 12]
       }
     }
   ],
