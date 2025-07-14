@@ -1281,6 +1281,20 @@
         "text-halo-width": 1,
         "text-halo-color": "#fff"
       }
+    },
+    {
+      "id": "facilities",
+      "type": "symbol",
+      "source": "nautical",
+      "source-layer": "seamarks",
+      "minzoom": 16,
+      "filter": ["all", ["==", "class", "small_craft_facility"]],
+      "layout": {
+        "text-field": "",
+        "text-font": [],
+        "icon-image": "{subclass}",
+        "icon-size": {"stops": [[16, 0.5], [20, 1]]}
+      }
     }
   ],
   "id": "b6grwp9yh",
