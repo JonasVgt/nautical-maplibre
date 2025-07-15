@@ -1396,6 +1396,73 @@
       }
     },
     {
+      "id": "buoy_isolated_danger_topmark",
+      "type": "symbol",
+      "source": "nautical",
+      "source-layer": "beacon_buoy",
+      "minzoom": 10,
+      "filter": ["all", ["in", "class", "buoy_isolated_danger"]],
+      "layout": {
+        "icon-size": {"stops": [[10, 0.2], [18, 0.5], [20, 1]]},
+        "icon-anchor": "bottom",
+        "icon-image": [
+          "concat",
+          "topmark/",
+          ["coalesce", ["get", "topmark_shape"], "2_spheres"],
+          "/",
+          ["coalesce", ["get", "topmark_pattern"], "black"]
+        ],
+        "icon-offset": [0, -105],
+        "icon-rotate": 19,
+        "icon-allow-overlap": true
+      }
+    },
+    {
+      "id": "buoy_isolated_danger",
+      "type": "symbol",
+      "source": "nautical",
+      "source-layer": "beacon_buoy",
+      "minzoom": 10,
+      "filter": ["all", ["in", "class", "buoy_isolated_danger"]],
+      "layout": {
+        "icon-image": [
+          "concat",
+          [
+            "match",
+            ["get", "shape"],
+            "stake",
+            "stake",
+            "pole",
+            "stake",
+            "perch",
+            "stake",
+            "post",
+            "stake",
+            "tower",
+            "tower",
+            "pile",
+            "buoyant",
+            "lattice",
+            "buoyant",
+            "cairn",
+            "cairn",
+            "buoyant",
+            "buoyant",
+            "pillar"
+          ],
+          "/",
+          ["coalesce", ["get", "pattern"], "horizontal/black_red_black"]
+        ],
+        "text-field": "{name}",
+        "text-font": ["Roboto Light Italic"],
+        "icon-size": {"stops": [[10, 0.2], [18, 0.5], [20, 1]]},
+        "text-anchor": "top",
+        "text-optional": true,
+        "icon-anchor": "bottom",
+        "icon-offset": [0, 13]
+      }
+    },
+    {
       "id": "beacon_cardinal_topmark",
       "type": "symbol",
       "source": "nautical",
@@ -1483,6 +1550,72 @@
               ""
             ]
           ]
+        ],
+        "text-field": "{name}",
+        "text-font": ["Roboto Light Italic"],
+        "icon-size": {"stops": [[10, 0.2], [18, 0.5], [20, 1]]},
+        "text-anchor": "top",
+        "text-optional": true,
+        "icon-anchor": "bottom",
+        "icon-offset": [0, 12]
+      }
+    },
+    {
+      "id": "beacon_isolated_danger_topmark",
+      "type": "symbol",
+      "source": "nautical",
+      "source-layer": "beacon_buoy",
+      "minzoom": 10,
+      "filter": ["all", ["in", "class", "beacon_isolated_danger"]],
+      "layout": {
+        "icon-size": {"stops": [[10, 0.2], [18, 0.5], [20, 1]]},
+        "icon-anchor": "bottom",
+        "icon-image": [
+          "concat",
+          "topmark/",
+          ["coalesce", ["get", "topmark_shape"], "2_spheres"],
+          "/",
+          ["coalesce", ["get", "topmark_pattern"], "black"]
+        ],
+        "icon-offset": [0, -76],
+        "icon-allow-overlap": true
+      }
+    },
+    {
+      "id": "beacon_isolated_danger",
+      "type": "symbol",
+      "source": "nautical",
+      "source-layer": "beacon_buoy",
+      "minzoom": 10,
+      "filter": ["all", ["in", "class", "beacon_isolated_danger"]],
+      "layout": {
+        "icon-image": [
+          "concat",
+          [
+            "match",
+            ["get", "shape"],
+            "stake",
+            "stake",
+            "pole",
+            "stake",
+            "perch",
+            "stake",
+            "post",
+            "stake",
+            "tower",
+            "tower",
+            "pile",
+            "buoyant",
+            "lattice",
+            "buoyant",
+            "cairn",
+            "cairn",
+            "buoyant",
+            "buoyant",
+            "buoyant"
+          ],
+          "/",
+          ["coalesce", ["get", "pattern"], "horizontal/black_red_black"]
         ],
         "text-field": "{name}",
         "text-font": ["Roboto Light Italic"],
