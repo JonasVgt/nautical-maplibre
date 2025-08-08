@@ -8,7 +8,7 @@
       "url": "http://localhost:8080/data/nautical.json"
     }
   },
-  "sprite": "http://localhost:8080/styles/nautical/sprite",
+  "sprite": "https://jonasvgt.github.io/nautical-maplibre/sprites/nautical",
   "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
   "layers": [
     {
