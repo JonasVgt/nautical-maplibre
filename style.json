@@ -5,7 +5,7 @@
   "sources": {
     "nautical": {
       "type": "vector",
-      "url": "http://localhost:8080/data/nautical.json"
+      "url": "http://tileserver.homelab.jonasvoigt.de/data/nautical.json"
     }
   },
   "sprite": "https://jonasvgt.github.io/nautical-maplibre/sprites/nautical",
