@@ -1,0 +1,5 @@
+solid black
+solid green
+solid red
+solid white
+solid yellow

@@ -1,0 +1,14 @@
+solid amber
+solid black
+solid blue
+solid brown
+solid green
+solid grey
+solid magenta
+solid orange
+solid pink
+solid red
+solid violet
+solid white
+solid yellow
+ 
