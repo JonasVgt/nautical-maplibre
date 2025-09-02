@@ -44,4 +44,3 @@ horizontal yellow brown yellow
 horizontal yellow red yellow
 horizontal yellow white yellow
 vertical red white
- 
