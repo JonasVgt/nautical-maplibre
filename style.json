@@ -5,7 +5,7 @@
   "sources": {
     "nautical": {
       "type": "vector",
-      "url": "https://jonasvoigt.de/europe.pmtiles"
+      "url": "https://tiles.jonasvoigt.de/europe.pmtiles"
     }
   },
   "sprite": "https://jonasvgt.github.io/nautical-maplibre/sprites/nautical",
