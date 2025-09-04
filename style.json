@@ -14,6 +14,7 @@
     {
       "id": "background",
       "type": "background",
+      "maxzoom": 24,
       "paint": {"background-color": "rgba(232, 200, 129, 1)"}
     },
     {
@@ -1545,6 +1546,25 @@
         "text-optional": true,
         "icon-anchor": "bottom",
         "icon-offset": [0, 12]
+      }
+    },
+    {
+      "id": "continent",
+      "type": "symbol",
+      "source": "nautical",
+      "source-layer": "place",
+      "maxzoom": 2,
+      "filter": ["all", ["==", "class", "continent"]],
+      "layout": {
+        "text-field": "{name_en}",
+        "text-font": ["Roboto Italic"],
+        "text-size": 13,
+        "text-transform": "uppercase"
+      },
+      "paint": {
+        "text-color": "rgba(84, 57, 32, 1)",
+        "text-halo-color": "rgba(210, 198, 151, 1)",
+        "text-halo-width": 1
       }
     }
   ],
