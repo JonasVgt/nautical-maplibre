@@ -14,7 +14,6 @@
     {
       "id": "background",
       "type": "background",
-      "maxzoom": 24,
       "paint": {"background-color": "rgba(232, 200, 129, 1)"}
     },
     {
@@ -1546,6 +1545,44 @@
         "text-optional": true,
         "icon-anchor": "bottom",
         "icon-offset": [0, 12]
+      }
+    },
+    {
+      "id": "country_2",
+      "type": "symbol",
+      "source": "nautical",
+      "source-layer": "place",
+      "minzoom": 3,
+      "maxzoom": 11,
+      "filter": ["all", ["==", "class", "country"], [">", "rank", 2]],
+      "layout": {
+        "text-field": "{name_en}",
+        "text-font": ["Roboto Italic"],
+        "text-size": {"stops": [[3, 12], [11, 20]]}
+      },
+      "paint": {
+        "text-color": "rgba(84, 57, 32, 1)",
+        "text-halo-color": "rgba(210, 198, 151, 1)",
+        "text-halo-width": 1
+      }
+    },
+    {
+      "id": "country_1",
+      "type": "symbol",
+      "source": "nautical",
+      "source-layer": "place",
+      "minzoom": 2,
+      "maxzoom": 10,
+      "filter": ["all", ["==", "class", "country"], ["<=", "rank", 1]],
+      "layout": {
+        "text-field": "{name_en}",
+        "text-font": ["Roboto Italic"],
+        "text-size": {"stops": [[2, 12], [10, 20]]}
+      },
+      "paint": {
+        "text-color": "rgba(84, 57, 32, 1)",
+        "text-halo-color": "rgba(210, 198, 151, 1)",
+        "text-halo-width": 1
       }
     },
     {
