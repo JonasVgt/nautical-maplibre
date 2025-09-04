@@ -1106,6 +1106,32 @@
       }
     },
     {
+      "id": "border_country",
+      "type": "line",
+      "source": "nautical",
+      "source-layer": "boundary",
+      "maxzoom": 13,
+      "filter": ["all", ["==", "admin_level", 2]],
+      "paint": {
+        "line-width": {"stops": [[3, 1], [12, 2]]},
+        "line-opacity": {"stops": [[12, 1], [13, 0]]}
+      }
+    },
+    {
+      "id": "border_country_land",
+      "type": "symbol",
+      "source": "nautical",
+      "source-layer": "boundary",
+      "minzoom": 12,
+      "filter": ["all", ["==", "admin_level", 2], ["==", "maritime", 0]],
+      "layout": {
+        "symbol-placement": "line",
+        "icon-image": "country_border_land",
+        "icon-allow-overlap": true,
+        "symbol-spacing": 20
+      }
+    },
+    {
       "id": "water_name_line",
       "type": "symbol",
       "source": "nautical",
