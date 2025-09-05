@@ -47,4 +47,47 @@ for name in "${names[@]}"; do
       --export-plain-svg --export-filename="$filename" \
       "svgs/$name/base.svg"
   done < "svgs/$name/colors.txt"
+
+  # Generate Topmarks:
+  width=$(xmlstarlet sel -t -v "/_:svg/@width" "svgs/$name/base.svg")
+  height=$(xmlstarlet sel -t -v "/_:svg/@height" "svgs/$name/base.svg")
+  exec 3< "svgs/$name/topmarks.txt"
+  read -r x_shift y_shift rotation <&3
+  while read -r shape pattern colorstring; do
+    colors=($colorstring)
+
+    if [[ "$pattern" == "solid" ]]; then
+      filename="svgs/$name/topmark/$shape/${colorstring// /_}.svg";
+      prefix="h";
+    else
+      filename="svgs/$name/topmark/$shape/$pattern/${colorstring// /_}.svg";
+      prefix=${pattern:0:1};
+    fi
+
+    echo "generating $filename";
+
+    width_topmark=$(xmlstarlet sel -t -v "/_:svg/@width" "svgs/topmark/$shape/base.svg")
+    height_topmark=$(xmlstarlet sel -t -v "/_:svg/@height" "svgs/topmark/$shape/base.svg")
+    
+    x_shift2=$(bc <<< "$x_shift + ($width/2) - ($width_topmark/2)" )
+    y_shift2=$(bc <<< "$y_shift + $height - $height_topmark" )
+    actions="select-all;transform-translate:$x_shift2,$y_shift2;transform-rotate:$rotation;";
+    for ((i=0; i<${#colors[@]}; i++)); do
+      fraction=$(( (i + 1) * 12 / ${#colors[@]} ))
+      id="path_fill_${prefix}${fraction}";
+      color_value=${color_values[${colors[i]}]};
+      actions="${actions}select-clear;select-by-id:$id;object-set-attribute:style,fill:${color_value};";
+    done
+
+    inkscape \
+      --actions="$actions" \
+      --export-plain-svg --export-filename="$filename" \
+      "svgs/topmark/$shape/base.svg"
+    
+    xmlstarlet ed -L \
+      -u "/_:svg/@width" -v "$width" \
+      -u "/_:svg/@height" -v "$height" \
+      "$filename"
+  done <&3;
+
 done
