@@ -66,8 +66,8 @@ for name in "${names[@]}"; do
 
     echo "generating $filename";
 
-    width_topmark=$(xmlstarlet sel -t -v "/_:svg/@width" "svgs/topmark/$shape/base.svg")
-    height_topmark=$(xmlstarlet sel -t -v "/_:svg/@height" "svgs/topmark/$shape/base.svg")
+    width_topmark=$(xmlstarlet sel -t -v "/_:svg/@width" "generator/topmark/$shape.svg")
+    height_topmark=$(xmlstarlet sel -t -v "/_:svg/@height" "generator/topmark/$shape.svg")
     
     x_shift2=$(bc <<< "$x_shift + ($width/2) - ($width_topmark/2)" )
     y_shift2=$(bc <<< "$y_shift + $height - $height_topmark" )
@@ -82,7 +82,7 @@ for name in "${names[@]}"; do
     inkscape \
       --actions="$actions" \
       --export-plain-svg --export-filename="$filename" \
-      "svgs/topmark/$shape/base.svg"
+      "generator/topmark/$shape.svg"
     
     xmlstarlet ed -L \
       -u "/_:svg/@width" -v "$width" \
