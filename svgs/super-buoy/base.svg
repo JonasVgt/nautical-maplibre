@@ -4,6 +4,13 @@
    width="140.89572"
    height="43.205551"
    id="svg2"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="green.svg"
+   sodipodi:version="0.32"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:modified="true"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -40,14 +47,40 @@
       </cc:License>
     </rdf:RDF>
   </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1378"
+     inkscape:window-height="1016"
+     id="namedview3030"
+     showgrid="false"
+     inkscape:zoom="3.3265262"
+     inkscape:cx="53.058353"
+     inkscape:cy="26.904944"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs4" />
   <path
-     style="fill:#d40000"
+     style="fill:#ffffff;fill-opacity:0;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="M 21.171949,30.91532 32.887729,2.43947 109.0403,1.95131 l 12.04122,28.47585 -41.167952,-0.32543 -3.09166,-5.69518 -4.06798,-3.09166 -6.50877,-0.32544 -3.90526,2.27807 -4.39342,7.15964 z"
-     id="path_fill_h12" />
+     id="path_fill_h12"
+     inkscape:connector-curvature="0" />
   <path
      style="display:inline;fill:#000407;fill-opacity:1;fill-rule:evenodd;stroke:none"
      d="M 110.92697,0.01805 31.089818,0 18.897638,27.89305 H 0 v 5.65625 h 56.739468 c 1.287321,5.53295 6.233271,9.65624 12.15625,9.65625 5.92495,0 10.87095,-4.12052 12.15625,-9.65625 H 140.89572 V 27.89305 H 122.03789 Z M 33.647478,4.89965 108.23683,4.54446 117.97935,28.2302 81.051968,27.89305 c -1.2853,-5.53573 -6.2313,-9.65625 -12.15625,-9.65625 -5.922979,10e-6 -10.868929,4.1233 -12.15625,9.65625 h -32.5625 z m 35.24824,18.3059 c 4.140001,0 7.5,3.36 7.5,7.5 0,4.14 -3.359999,7.5 -7.5,7.5 -4.14,0 -7.5,-3.36 -7.5,-7.5 0,-4.14 3.36,-7.5 7.5,-7.5 z"
-     id="path_stroke" />
+     id="path_stroke"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccscccccccccscccsssss" />
 </svg>
