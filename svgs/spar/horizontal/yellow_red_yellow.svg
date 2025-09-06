@@ -1,97 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
-   width="59.96875"
-   height="115.28125"
+   width="85.841003"
+   height="115.609"
    id="svg2"
-   sodipodi:version="0.32"
-   inkscape:version="0.48.2 r9819"
-   sodipodi:docname="H_yellow_red_yellow.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   sodipodi:modified="true">
-  <title
-     id="title2985">Q24: Red and yellow spar buoy</title>
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>Q24: Red and yellow spar buoy</dc:title>
-        <cc:license
-           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
-      </cc:Work>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-      <cc:License
-         rdf:about="http://creativecommons.org/licenses/publicdomain/">
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Reproduction" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Distribution" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
-      </cc:License>
-    </rdf:RDF>
-  </metadata>
-  <sodipodi:namedview
-     inkscape:window-height="808"
-     inkscape:window-width="1440"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     guidetolerance="10.0"
-     gridtolerance="10.0"
-     objecttolerance="10.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
-     pagecolor="#ffffff"
-     id="base"
-     showgrid="false"
-     inkscape:zoom="4.7709406"
-     inkscape:cx="-6.9056253"
-     inkscape:cy="57.640625"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:current-layer="svg2"
-     inkscape:window-maximized="1" />
-  <defs
-     id="defs4">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 160 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="320 : 160 : 1"
-       inkscape:persp3d-origin="160 : 106.66667 : 1"
-       id="perspective9" />
-  </defs>
-  <path
-     style="fill:#ffd400;fill-opacity:1;stroke:none"
-     d="M 17.92045,92.59332 L 48.22165,0.322752 L 59.38525,4.195837 L 27.94491,96.4664 L 17.92045,92.59332 z "
-     id="path3755"
-     inkscape:connector-curvature="0" />
-  <path
-     style="fill:#d40000;stroke:none"
-     d="M 38.42503,30.168293 L 49.3608,33.585721 L 39.792,62.51995 L 29.76754,58.19121 L 38.42503,30.168293 z "
-     id="path2984"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="ccccc" />
-  <path
-     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
-     d="M 47.9375,0 L 17.84375,90.625 C 13.25518,91.72332 9.6304,95.36544 8.5625,99.96875 L 0.125,99.96875 L 0,105.625 L 8.5625,105.625 C 9.84982,111.15795 14.79577,115.28124 20.71875,115.28125 C 26.6437,115.28125 31.5897,111.16073 32.875,105.625 L 41.1875,105.5938 L 41.1875,99.93755 L 32.875,99.96875 C 32.3855,97.85444 31.37651,95.93061 29.96875,94.375 L 59.96875,3.90625 L 47.9375,0 z M 48.64273,1.132863 L 58.71831,4.46869 L 28.10464,93.23146 C 25.1827,91.24821 23.86563,91.02417 19.98693,90.55322 L 48.64273,1.132863 z M 20.71875,95.28125 C 24.85875,95.28125 28.21875,98.64125 28.21875,102.78125 C 28.21875,106.92125 24.85875,110.28125 20.71875,110.28125 C 16.57875,110.28125 13.21875,106.92125 13.21875,102.78125 C 13.21875,98.64125 16.57875,95.28125 20.71875,95.28125 z "
-     id="path27763"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="ccccccsccccccccccccsssss" />
-</svg>
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><title
+     id="title2985">Q24: Spar buoy</title><metadata
+     id="metadata7"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title>Q24: Spar buoy</dc:title><cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" /></cc:Work><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work><cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/"><cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" /><cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" /><cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" /></cc:License></rdf:RDF></metadata><defs
+     id="defs4" /><path
+     style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0;stroke-miterlimit:4.1;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="M 74.049988,1.3730468 40.780456,92.78125 51.198415,96.574247 84.467947,5.1660441 Z"
+     id="path_fill_v12" /><path
+     style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0;stroke-width:0.707066;stroke-miterlimit:4.1;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="M 74.049728,1.3733056 40.780049,92.781455 45.988242,94.678253 79.257922,3.2701034 Z"
+     id="path_fill_v6" /><path
+     style="fill:#ffd400"
+     d="M 74.049988,1.3730468 40.780456,92.78125 51.198415,96.574247 84.467947,5.1660441 Z"
+     id="path_fill_h12" /><path
+     style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0;stroke-width:0.866027;stroke-miterlimit:4.1;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="M 74.049728,1.3733056 49.097541,69.929792 59.515593,73.722531 84.467781,5.1660444 Z"
+     id="path_fill_h9" /><path
+     style="fill:#d40000"
+     d="M 74.049728,1.3733056 51.870039,62.312417 62.288123,66.10507 84.467812,5.1659582 Z"
+     id="path_fill_h8" /><path
+     style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0;stroke-width:0.707108;stroke-miterlimit:4.1;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="M 74.049728,1.3733056 57.415035,47.077666 67.833181,50.870146 84.467875,5.165786 Z"
+     id="path_fill_h6" /><path
+     style="fill:#ffd400"
+     d="M 74.049728,1.3733056 62.960031,31.842915 73.37824,35.635224 84.467937,5.1656138 Z"
+     id="path_fill_h4" /><path
+     style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0;stroke-width:0.500001;stroke-miterlimit:4.1;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="m 74.049728,1.3733056 -8.317199,22.8522334 10.41824,3.792222 8.3172,-22.8522334 z"
+     id="path_fill_h3" /><path
+     id="path_stroke"
+     style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;stroke-miterlimit:4.1;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="M 73.409363,0 40.319519,90.916016 c -4.731047,1.001247 -8.464801,4.680311 -9.55664,9.382814 h -8.5625 v 5.65625 h 8.5625 c 1.287319,5.53295 6.233271,9.65428 12.156251,9.65429 5.924949,1e-5 10.870949,-4.11856 12.156249,-9.65429 l 8.313,-0.0312 -5e-4,-5.65625 -8.3125,0.0312 C 54.65674,98.499504 53.851505,96.848975 52.75116,95.441407 L 85.841003,4.525391 Z m 1.28125,2.7460942 8.404308,3.0605143 -31.992187,87.8984375 c -2.189824,-1.906338 -5.049588,-3.060542 -8.183593,-3.060547 -0.07409,0 -0.148879,6.71e-4 -0.222658,0.002 z M 42.919128,95.611328 c 4.140001,0 7.500001,3.36 7.500001,7.500002 -10e-7,4.14 -3.36,7.50195 -7.500001,7.50195 -4.139999,0 -7.499999,-3.36195 -7.499999,-7.50195 -10e-7,-4.140002 3.36,-7.500002 7.499999,-7.500002 z" /></svg>
