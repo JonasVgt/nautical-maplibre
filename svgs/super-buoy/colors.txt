@@ -2,3 +2,4 @@ solid black
 solid green
 solid red
 solid yellow
+solid generic

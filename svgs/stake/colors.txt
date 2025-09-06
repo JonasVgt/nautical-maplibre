@@ -3,6 +3,7 @@ solid green
 solid grey
 solid red
 solid yellow
+solid generic
 horizontal green red green
 horizontal green red
 horizontal red green red

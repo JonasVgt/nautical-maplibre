@@ -11,3 +11,4 @@ solid red
 solid violet
 solid white
 solid yellow
+solid generic

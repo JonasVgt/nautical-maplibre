@@ -38,8 +38,10 @@ for name in "${names[@]}"; do
     for ((i=0; i<${#colors[@]}; i++)); do
       fraction=$(( (i + 1) * 12 / ${#colors[@]} ))
       id="path_fill_${prefix}${fraction}";
-      color_value=${color_values[${colors[i]}]};
-      actions="${actions}select-clear;select-by-id:$id;object-set-attribute:style,fill:${color_value};";
+      if [[ "${colors[i]}" != "generic" ]]; then
+        color_value=${color_values[${colors[i]}]};
+        actions="${actions}select-clear;select-by-id:$id;object-set-attribute:style,fill:${color_value};";
+      fi
     done
 
     inkscape \

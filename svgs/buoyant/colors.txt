@@ -7,6 +7,7 @@ solid pink
 solid red
 solid white
 solid yellow
+solid generic
 horizontal black red black
 horizontal black red
 horizontal black white black white
