@@ -3,7 +3,9 @@ x-shape solid red
 x-shape solid black
 x-shape solid green
 x-shape solid yellow
+x-shape solid generic
 cross solid red
 cross solid black
 cross solid green
 cross solid yellow
+x-shape solid generic
