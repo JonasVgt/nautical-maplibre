@@ -16,7 +16,7 @@ color_values[violet]="#ee82ee";
 color_values[white]="#ffffff";
 color_values[yellow]="#ffd400";
 
-names=('barrel' 'buoyant' 'cairn' 'can')
+names=('barrel' 'buoyant' 'cairn' 'can' 'conical')
 
 for name in "${names[@]}"; do
   while read -r pattern colorstring; do
