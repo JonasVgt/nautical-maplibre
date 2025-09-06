@@ -4,6 +4,13 @@
    width="20.549999"
    height="76.197212"
    id="svg2"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="yellow.svg"
+   sodipodi:version="0.32"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:modified="true"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -40,6 +47,29 @@
       </cc:License>
     </rdf:RDF>
   </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1614"
+     inkscape:window-height="1016"
+     id="namedview3002"
+     showgrid="false"
+     inkscape:zoom="4.6371243"
+     inkscape:cx="-12.939054"
+     inkscape:cy="24.907678"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs4" />
   <path
@@ -48,7 +78,7 @@
      d="M 7.765625 0 L 7.765625 71.21875 L 7.8007812 71.21875 L 7.8007812 71.234375 L 0 71.597656 L 0 76.197266 L 20.550781 76.197266 L 20.550781 71.234375 L 12.761719 71.234375 L 12.761719 71.21875 L 12.787109 71.21875 L 12.787109 0 L 7.765625 0 z " />
   <path
      id="path_fill_h12"
-     style="fill:#ffd400"
+     style="display:inline;fill:#ffffff;fill-opacity:0"
      d="M 7.7659135,0 H 12.78764 V 71.219116 H 7.7659135 Z" />
   <path
      id="path_fill_h8"
