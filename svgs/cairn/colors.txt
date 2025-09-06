@@ -11,4 +11,3 @@ solid red
 solid violet
 solid white
 solid yellow
- 
