@@ -36,13 +36,13 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1906"
+     inkscape:window-width="1586"
      inkscape:window-height="1016"
      id="namedview3030"
      showgrid="false"
      inkscape:zoom="6.4249186"
-     inkscape:cx="41.401303"
-     inkscape:cy="39.455753"
+     inkscape:cx="27.704631"
+     inkscape:cy="30.428401"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -55,14 +55,14 @@
      id="defs4" />
   <path
      id="path_fill_v12"
-     style="fill:#ffffff;fill-opacity:0;stroke:none"
+     style="display:inline;fill:#ffffff;fill-opacity:0;stroke:none"
      inkscape:label="path_fill_v12"
      d="m 29.974609,5.7597656 -15.511718,42.6191404 8.070312,2.9375 11.439453,-0.197265 0.941406,-3.972657 4.634766,-5.404296 4.839844,-0.240235 0.623047,-0.144531 0.242187,0.101562 2.06836,-0.101562 5.402343,3.964844 1.728516,5.714843 L 73.875,50.902344 83.248047,25.150391 Z" />
   <path
      id="path_fill_v6"
-     style="fill:#ffffff;fill-opacity:0;stroke:none"
+     style="display:inline;fill:#ffffff;fill-opacity:0;stroke:none"
      inkscape:label="path_fill_v6"
-     d="m 56.611328,15.455078 -9.429687,25.910156 0.140625,-0.0078 5.402343,3.964844 1.728516,5.714843 L 73.875,50.902344 83.248047,25.150391 Z" />
+     d="m 29.974609,5.7597656 -15.511718,42.6191404 8.070312,2.9375 11.439453,-0.197265 0.941406,-3.972657 4.634766,-5.404296 4.839844,-0.240235 0.623047,-0.144531 0.242187,0.101562 1.927735,-0.09375 9.429687,-25.910156 z" />
   <path
      id="path_fill_h12"
      style="fill:#ffffff;fill-opacity:0;stroke:none"
@@ -95,6 +95,6 @@
      d="M 29.974733,5.7598278 83.248645,25.149946 79.525743,35.378537 26.251831,15.988419 Z" />
   <path
      id="path_stroke"
-     style="fill:#000407;fill-opacity:1;stroke:none"
+     style="display:inline;fill:#000407;fill-opacity:1;stroke:none"
      d="M 27.192475,0 9.6416931,48.220703 H 2.4952087 v 5.65625 H 32.182709 c 1.28732,5.53295 6.23327,9.65624 12.15625,9.65625 5.92495,0 10.87095,-4.12052 12.15625,-9.65625 h 29.84375 v -0.0625 -5.59375 h -7.058594 l 9.40625,-25.839844 z m 4.517578,9.6875 47.289062,17.210937 -7.761718,21.322266 H 56.495209 c -1.2853,-5.53573 -6.2313,-9.65625 -12.15625,-9.65625 -5.92298,1e-5 -10.86893,4.1233 -12.15625,9.65625 H 17.686615 Z m 12.628906,33.845703 c 4.14,0 7.5,3.36 7.5,7.5 0,4.14 -3.36,7.5 -7.5,7.5 -4.14,0 -7.5,-3.36 -7.5,-7.5 0,-4.14 3.36,-7.5 7.5,-7.5 z" />
 </svg>
