@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="36"
+   height="34.154747"
+   id="svg2"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="triangle_point_up.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title2983">Q9: Topmark, triangle point down</title>
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Q9: Topmark, triangle point down</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1133"
+     inkscape:window-height="1016"
+     id="namedview6"
+     showgrid="false"
+     fit-margin-top="2"
+     fit-margin-left="2"
+     fit-margin-right="2"
+     fit-margin-bottom="2"
+     inkscape:zoom="17.111734"
+     inkscape:cx="18.583739"
+     inkscape:cy="18.846717"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <path
+     style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="M 33.909019,32.237647 17.969566,2.5481935 2.2390975,32.128272 Z"
+     id="path_fill_b12"
+     sodipodi:nodetypes="cccc"
+     inkscape:label="path_fill_b12" />
+  <path
+     style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="M 33.909019,32.237647 17.969566,2.5481935 2.2390975,32.128272 Z M 28.883629,29.222023 7.2234725,29.145851 17.983238,8.9153815 Z"
+     id="path_fill_b2" />
+  <path
+     style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     d="M 33.909019,32.237647 17.969566,2.5481935 2.2390975,32.128272 Z"
+     id="path_fill_h12"
+     sodipodi:nodetypes="cccc" />
+  <path
+     d="M 2.9969095,31.71788 17.93738,3.5633695 32.99691,31.71788 c -10,4.9e-4 -20,8e-5 -30.0000005,0 z"
+     style="display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-opacity:1"
+     id="path_stroke"
+     inkscape:connector-curvature="0" />
+</svg>

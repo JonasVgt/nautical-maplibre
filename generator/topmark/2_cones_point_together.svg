@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="40"
+   height="80"
+   id="svg2"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="generic.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title2982">Q9: Topmark, west mark</title>
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Q9: Topmark, west mark</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1695"
+     inkscape:window-height="964"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="-8.2201163"
+     inkscape:cy="29.96365"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <path
+     d="m 1.59375,0.4375 c 5.7852015,11.467078 11.72321,23.832719 16.625,33.875 -5.482962,11.223388 -11.5702129,22.783173 -16.875,33.875 H 17.875 V 80 h 4.25 V 68.1875 H 38.71875 C 33.251423,57.021554 27.444804,45.545858 21.8125,34.28125 27.3114,23.026237 33.404293,11.656916 38.6875,0.4375 Z m 4.875,3 H 33.875 L 20.03125,31.125 Z M 33.875,65.1875 H 6.15625 L 20,37.643008 Z"
+     id="path_stroke"
+     sodipodi:nodetypes="ccccccccccccccccccc" />
+  <path
+     d="M 33.875,65.1875 H 6.15625 L 20,37.656248 Z M 6.468875,3.43725 h 27.40625 l -13.84375,27.6875 z"
+     id="path_fill_h12"
+     style="display:inline;fill:#ffffff;fill-opacity:0;stroke:none"
+     sodipodi:nodetypes="cccccccc" />
+  <path
+     d="m 6.468875,3.43725 h 27.40625 l -13.84375,27.6875 z"
+     id="path_fill_h6"
+     style="display:inline;fill:#ffffff;fill-opacity:0;stroke:none"
+     sodipodi:nodetypes="cccc" />
+</svg>

@@ -69,14 +69,22 @@ for name in "${names[@]}"; do
     width_topmark=$(xmlstarlet sel -t -v "/_:svg/@width" "generator/topmark/$shape.svg")
     height_topmark=$(xmlstarlet sel -t -v "/_:svg/@height" "generator/topmark/$shape.svg")
     
-    x_shift2=$(bc <<< "$x_shift + ($width/2) - ($width_topmark/2)" )
-    y_shift2=$(bc <<< "$y_shift + $height - $height_topmark" )
+    x_shift2=$(echo "$x_shift $width $width_topmark" | awk '{printf "%f", $1 + ($2/2) - ($3/2)}'  )
+    y_shift2=$(echo "$y_shift $height $height_topmark" | awk '{printf "%f", $1 + $2 - $3}'  )
     actions="select-all;transform-translate:$x_shift2,$y_shift2;transform-rotate:$rotation;";
     for ((i=0; i<${#colors[@]}; i++)); do
       fraction=$(( (i + 1) * 12 / ${#colors[@]} ))
+
+      # Special case for border with only two colors
+      if [[ "$pattern" == "border" && ${#colors[@]} == 2 && $i == 0 ]]; then
+        fraction="2";
+      fi
+
       id="path_fill_${prefix}${fraction}";
-      color_value=${color_values[${colors[i]}]};
-      actions="${actions}select-clear;select-by-id:$id;object-set-attribute:style,fill:${color_value};";
+      if [[ "${colors[i]}" != "generic" ]]; then
+        color_value=${color_values[${colors[i]}]};
+        actions="${actions}select-clear;select-by-id:$id;object-set-attribute:style,fill:${color_value};";
+      fi
     done
 
     inkscape \
