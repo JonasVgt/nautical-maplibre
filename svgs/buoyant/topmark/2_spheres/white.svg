@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0" width="61.188" height="172.21899" id="svg2">
+  <title id="title2983">Q9: Topmark, two balls</title>
+  <metadata id="metadata10">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title>Q9: Topmark, two balls</dc:title>
+        <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+      </cc:Work>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs8"/>
+  <path style="fill:#ffffff" d="m 30.044902,71.778181 -3.948271,-0.544589 -2.859093,-1.225325 -2.178357,-1.633768 -1.633768,-1.906062 -1.225325,-2.04221 -0.953031,-2.586798 -0.272295,-2.859093 0.408442,-3.131388 1.361473,-3.53983 2.178357,-2.586798 2.859093,-2.178357 3.403682,-1.361473 0.816884,-1.361473 -4.356714,-1.633768 -2.859093,-2.314504 -2.314504,-2.586798 -1.225325,-3.675977 -0.136148,-3.403682 0.680737,-3.675977 2.042209,-3.675977 3.53983,-2.995241 4.492861,-1.769915 2.859093,-0.136147 3.131388,0.544589 2.859093,1.225326 2.314504,1.906062 1.633767,2.178357 1.497621,2.586798 0.544589,2.859094 0.272294,3.539829 -1.361473,4.492861 -2.178356,2.859093 -3.267535,2.314504 -4.765156,1.633768 3.675977,2.042209 2.722946,1.361473 2.04221,1.633768 2.042209,2.722945 1.089178,4.356714 v 3.131388 l -0.544589,3.131387 -1.49762,2.859094 -2.450651,2.722945 -2.450652,1.633768 -2.99524,0.953031 z" id="path_fill_h12"/>
+  <path d="M 30.03125,18 C 22.225114,18 16,24.291548 16,31.9375 c 0,6.468252 4.462787,11.959031 10.5625,13.5 C 20.462787,46.978469 16,52.469248 16,58.9375 c 0,6.935135 5.128041,12.758601 11.90625,13.78125 V 85.9375 h 4.25 V 72.71875 C 38.934459,71.696101 44.0625,65.872635 44.0625,58.9375 c 0,-6.468252 -4.462786,-11.959031 -10.5625,-13.5 6.099714,-1.540969 10.5625,-7.031748 10.5625,-13.5 C 44.0625,24.291548 37.837386,18 30.03125,18 Z m 0,1.875 C 36.584518,19.875 42,25.224049 42,31.9375 42,38.650951 36.584518,44 30.03125,44 23.477983,44 18.0625,38.650951 18.0625,31.9375 c 0,-6.713451 5.415483,-12.0625 11.96875,-12.0625 z m 0,27 C 36.584518,46.875 42,52.224049 42,58.9375 42,65.650951 36.584518,71 30.03125,71 23.477983,71 18.0625,65.650951 18.0625,58.9375 c 0,-6.713451 5.415483,-12.0625 11.96875,-12.0625 z" id="path_stroke" style="display:inline"/>
+</svg>

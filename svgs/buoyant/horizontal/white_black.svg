@@ -1,81 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.0"
-   width="41.1875"
-   height="86.21875"
+   width="61.188"
+   height="172.21899"
    id="svg2"
+   xml:space="preserve"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <title
-     id="title2983">Q81: Beacon</title>
-  <metadata
-     id="metadata3080">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <cc:license
-           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
-        <dc:title>Q81: Beacon</dc:title>
-      </cc:Work>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-      <cc:License
-         rdf:about="http://creativecommons.org/licenses/publicdomain/">
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Reproduction" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Distribution" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
-      </cc:License>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs4" />
-  <path
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><title
+     id="title2983">Q81: Beacon</title><metadata
+     id="metadata3080"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" /><dc:title>Q81: Beacon</dc:title></cc:Work><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work><cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/"><cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" /><cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" /><cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" /></cc:License></rdf:RDF></metadata><defs
+     id="defs4" /><path
      id="path_fill_v12"
      style="fill:#ffffff;fill-opacity:0"
-     d="M 13.049896,0.96220398 H 28.385247 V 64.689106 H 13.049896 Z" />
-  <path
+     d="M 23.050146,86.962452 H 38.385497 V 150.68935 H 23.050146 Z" /><path
      id="path_fill_v6"
      style="fill:#ffffff;fill-opacity:0;stroke-width:1.00003"
-     d="m 20.718,0.96220398 h 7.668 V 64.689106 h -7.668 z" />
-  <path
+     d="m 30.71825,86.962452 h 7.668 v 63.726898 h -7.668 z" /><path
      id="path_fill_h12"
      style="fill:#000407"
-     d="M 13.049896,0.96220398 H 28.385247 V 64.689106 H 13.049896 Z" />
-  <path
+     d="M 23.050146,86.962452 H 38.385497 V 150.68935 H 23.050146 Z" /><path
      id="path_fill_h9"
      style="fill:#ffffff;fill-opacity:0"
-     d="M 13.049896,0.963 H 28.385247 V 48.759 H 13.049896 Z" />
-  <path
+     d="M 23.050146,86.963248 H 38.385497 V 134.75925 H 23.050146 Z" /><path
      id="path_fill_h8"
      style="fill:#ffffff;fill-opacity:0"
-     d="m 13.049896,0.963 h 15.335 v 42.484 h -15.335 z" />
-  <path
+     d="m 23.050146,86.963248 h 15.335 v 42.484002 h -15.335 z" /><path
      id="path_fill_h6"
      style="fill:#ffffff"
-     d="M 13.05,0.963 H 28.385351 V 32.826 H 13.05 Z" />
-  <path
+     d="M 23.05025,86.963248 H 38.385601 V 118.82625 H 23.05025 Z" /><path
      id="path_fill_h4"
      style="fill:#ffffff;fill-opacity:0"
-     d="M 13.049896,0.963 H 28.385247 V 22.205 H 13.049896 Z" />
-  <path
+     d="M 23.050146,86.963248 H 38.385497 V 108.20525 H 23.050146 Z" /><path
      id="path_fill_h3"
      style="fill:#ffffff;fill-opacity:0"
-     d="M 13.05,0.963 H 28.385351 V 16.894 H 13.05 Z" />
-  <path
+     d="M 23.05025,86.963248 H 38.385601 V 102.89425 H 23.05025 Z" /><path
      style="fill:#000407;stroke:none"
-     d="M 12.0625,0 L 12.0625,64.75 C 10.35796,66.3989 9.11581,68.52114 8.5625,70.90625 L 0.125,70.90625 L 0,76.5625 L 8.5625,76.5625 C 9.84982,82.09545 14.79577,86.21874 20.71875,86.21875 C 26.6437,86.21875 31.5897,82.09823 32.875,76.5625 L 41.1875,76.5313 L 41.1875,70.87505 L 32.875,70.90625 C 32.28832,68.37729 30.92845,66.15509 29.0625,64.46875 L 29.0625,0 L 12.0625,0 z M 14.3125,1.9375 L 26.65625,1.9375 L 26.68945,63.52412 C 23.03923,60.90378 18.69246,60.83744 14.3457,63.52412 L 14.3125,1.9375 z M 20.71875,66.21875 C 24.85875,66.21875 28.21875,69.57875 28.21875,73.71875 C 28.21875,77.85875 24.85875,81.21875 20.71875,81.21875 C 16.57875,81.21875 13.21875,77.85875 13.21875,73.71875 C 13.21875,69.57875 16.57875,66.21875 20.71875,66.21875 z "
-     id="path_stroke" />
-</svg>
+     d="m 22.06275,86.000248 v 64.749992 c -1.70454,1.6489 -2.94669,3.77114 -3.5,6.15625 h -8.4375 l -0.125,5.65625 h 8.5625 c 1.28732,5.53295 6.23327,9.65624 12.15625,9.65625 5.92495,0 10.87095,-4.12052 12.15625,-9.65625 l 8.3125,-0.0312 v -5.65625 l -8.3125,0.0312 c -0.58668,-2.52896 -1.94655,-4.75116 -3.8125,-6.4375 V 86.000248 Z m 2.25,1.9375 H 36.6565 l 0.0332,61.586612 c -3.65022,-2.62034 -7.99699,-2.68668 -12.34375,0 z M 30.719,152.21899 c 4.14,0 7.5,3.36 7.5,7.5 0,4.14 -3.36,7.5 -7.5,7.5 -4.14,0 -7.5,-3.36 -7.5,-7.5 0,-4.14 3.36,-7.5 7.5,-7.5 z"
+     id="path_stroke" /></svg>

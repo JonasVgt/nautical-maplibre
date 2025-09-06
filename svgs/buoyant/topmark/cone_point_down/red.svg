@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.0" width="61.188" height="172.21899" id="svg2">
+  <title id="title2984">Q9: Topmark, cone point down</title>
+  <metadata id="metadata9">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title>Q9: Topmark, cone point down</dc:title>
+        <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs7"/>
+  <path style="fill:#d40000" d="M 14.751979,36.006619 44.754617,36.225617 30.081794,66.228255 Z" id="path_fill_h12"/>
+  <path d="m 13,35.000023 c 0.106672,0.03795 14.985878,30.454414 16.125,32.78125 h -1.5625 v 17.71875 h 4.25 V 67.781273 H 30.375 c 1.139107,-2.328431 16.042239,-32.812051 16.21875,-32.78125 z m 3.28125,2 h 27 l -13.5,27.5 z" id="path_stroke"/>
+</svg>
