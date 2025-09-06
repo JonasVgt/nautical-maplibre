@@ -1,0 +1,30 @@
+solid black
+solid blue
+solid green
+solid grey
+solid pink
+solid red
+solid white
+solid yellow
+horizontal black red black
+horizontal black red
+horizontal black white black
+horizontal black white
+horizontal black yellow black
+horizontal black yellow
+horizontal green red green
+horizontal green white green white
+horizontal green white green
+horizontal green white
+horizontal red green red green
+horizontal red green red
+horizontal red white red white
+horizontal red white red
+horizontal red white
+horizontal white black
+horizontal white green
+horizontal white red
+horizontal yellow black yellow
+horizontal yellow black
+horizontal yellow brown yellow
+horizontal yellow red yellow
