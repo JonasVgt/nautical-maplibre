@@ -1451,7 +1451,7 @@
       "filter": ["all", ["==", "class", "harbour"]],
       "layout": {
         "text-field": {"stops": [[9, ""], [10, "{name}"]]},
-        "text-font": ["Roboto Light"],
+        "text-font": ["Roboto Medium"],
         "icon-image": [
           "coalesce",
           ["image", ["concat", "harbour_", ["get", "subclass"]]],
@@ -1462,12 +1462,14 @@
         "text-offset": {"stops": [[7, [0, 0.7]], [15, [0, 2]], [20, [0, 4]]]},
         "text-line-height": 1,
         "text-optional": true,
-        "symbol-placement": "point"
+        "symbol-placement": "point",
+        "text-variable-anchor": ["top", "bottom", "left", "right"],
+        "text-justify": "auto"
       },
       "paint": {
-        "text-color": "rgba(163, 0, 117, 1)",
-        "text-halo-width": 1,
-        "text-halo-color": "#fff"
+        "text-color": "rgba(0, 0, 0, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 0.5)",
+        "text-halo-width": 1
       }
     },
     {
