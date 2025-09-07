@@ -1285,37 +1285,6 @@
       }
     },
     {
-      "id": "harbour",
-      "type": "symbol",
-      "source": "nautical",
-      "source-layer": "seamarks",
-      "minzoom": 7,
-      "filter": ["all", ["==", "class", "harbour"]],
-      "layout": {
-        "text-field": {"stops": [[9, ""], [10, "{name}"]]},
-        "text-font": ["Roboto Light"],
-        "icon-image": [
-          "match",
-          ["get", "subclass"],
-          "marina",
-          "marina",
-          "marina_no_facilities",
-          "marina_no_facilities",
-          "harbour"
-        ],
-        "icon-size": {"stops": [[7, 0.1], [15, 0.5], [20, 1]]},
-        "text-anchor": "top",
-        "text-offset": {"stops": [[7, [0, 0.7]], [15, [0, 2]], [20, [0, 4]]]},
-        "text-line-height": 1,
-        "text-optional": true
-      },
-      "paint": {
-        "text-color": "rgba(163, 0, 117, 1)",
-        "text-halo-width": 1,
-        "text-halo-color": "#fff"
-      }
-    },
-    {
       "id": "facilities",
       "type": "symbol",
       "source": "nautical",
@@ -1471,6 +1440,34 @@
             ["literal", [0, -70]]
           ]
         ]
+      }
+    },
+    {
+      "id": "harbour",
+      "type": "symbol",
+      "source": "nautical",
+      "source-layer": "seamarks",
+      "minzoom": 7,
+      "filter": ["all", ["==", "class", "harbour"]],
+      "layout": {
+        "text-field": {"stops": [[9, ""], [10, "{name}"]]},
+        "text-font": ["Roboto Light"],
+        "icon-image": [
+          "coalesce",
+          ["image", ["concat", "harbour_", ["get", "subclass"]]],
+          ["image", "harbour_harbour"]
+        ],
+        "icon-size": {"stops": [[7, 0.1], [15, 0.5], [20, 1]]},
+        "text-anchor": "top",
+        "text-offset": {"stops": [[7, [0, 0.7]], [15, [0, 2]], [20, [0, 4]]]},
+        "text-line-height": 1,
+        "text-optional": true,
+        "symbol-placement": "point"
+      },
+      "paint": {
+        "text-color": "rgba(163, 0, 117, 1)",
+        "text-halo-width": 1,
+        "text-halo-color": "#fff"
       }
     },
     {
