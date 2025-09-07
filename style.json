@@ -1435,11 +1435,34 @@
         "icon-offset": [
           "match",
           ["get", "shape"],
+          "pillar",
+          ["literal", [0, -100]],
+          "tower",
+          ["literal", [0, -70]],
+          "chairn",
+          ["literal", [0, -45]],
+          "spherical",
+          ["literal", [0, -50]],
+          "barrel",
+          ["literal", [0, -40]],
+          "can",
+          ["literal", [0, -40]],
+          "super-buoy",
+          ["literal", [0, -25]],
+          "spar",
+          ["literal", [0, -105]],
+          "conical",
+          ["literal", [0, -55]],
           ["pile", "buoyant", "lattice"],
           ["literal", [0, -70]],
           ["stake", "pole", "perch", "post"],
           ["literal", [0, -60]],
-          ["literal", [0, 0]]
+          [
+            "case",
+            ["get", "buoy"],
+            ["literal", [0, -100]],
+            ["literal", [0, -70]]
+          ]
         ]
       }
     },
