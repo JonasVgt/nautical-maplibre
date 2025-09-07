@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
    width="57.412498"
-   height="76.199997"
+   height="71.224998"
    id="svg2"
-   inkscape:version="0.48.2 r9819"
-   sodipodi:docname="generic.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="besom_point_down.svg"
    sodipodi:version="0.32"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   sodipodi:modified="true">
+   sodipodi:modified="true"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title
      id="title2982">Q91: Perch, port side</title>
   <metadata
@@ -27,7 +27,7 @@
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <cc:license
-           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
         <dc:title>Q91: Perch, port side</dc:title>
       </cc:Work>
       <cc:Work
@@ -37,7 +37,7 @@
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
       </cc:Work>
       <cc:License
-         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
         <cc:permits
            rdf:resource="http://creativecommons.org/ns#Reproduction" />
         <cc:permits
@@ -56,22 +56,25 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="802"
-     inkscape:window-height="575"
+     inkscape:window-width="1906"
+     inkscape:window-height="1016"
      id="namedview5375"
      showgrid="false"
-     inkscape:zoom="1.8785714"
-     inkscape:cx="-117.37643"
-     inkscape:cy="70"
-     inkscape:window-x="104"
-     inkscape:window-y="104"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg2" />
+     inkscape:zoom="3.7571428"
+     inkscape:cx="-40.855514"
+     inkscape:cy="39.790875"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs4" />
   <path
-     d="M 26.225,71.225 26.225,33.3 0,3.2 3.9,0 28.7125,28.35 53.5125,0 l 3.9,3.2 -26.225,29.7625 0,38.2625"
-     id="path7834"
+     d="M 26.225,71.225 V 33.3 L 0,3.2 3.9,0 28.7125,28.35 53.5125,0 l 3.9,3.2 -26.225,29.7625 V 71.225"
+     id="path_stroke"
      style="fill:#000407;fill-opacity:1;fill-rule:evenodd;stroke:none"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccccccc" />

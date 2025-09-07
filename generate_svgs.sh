@@ -50,54 +50,43 @@ for name in "${names[@]}"; do
       "svgs/$name/base.svg"
   done < "svgs/$name/colors.txt"
 
-  # Generate Topmarks:
-  width=$(xmlstarlet sel -t -v "/_:svg/@width" "svgs/$name/base.svg")
-  height=$(xmlstarlet sel -t -v "/_:svg/@height" "svgs/$name/base.svg")
-  exec 3< "svgs/$name/topmarks.txt"
-  read -r x_shift y_shift rotation <&3
-  while read -r shape pattern colorstring; do
-    colors=($colorstring)
+done
 
-    if [[ "$pattern" == "solid" ]]; then
-      filename="svgs/$name/topmark/$shape/${colorstring// /_}.svg";
-      prefix="h";
-    else
-      filename="svgs/$name/topmark/$shape/$pattern/${colorstring// /_}.svg";
-      prefix=${pattern:0:1};
+
+
+# Generate Topmarks:
+while read -r shape pattern colorstring; do
+  colors=($colorstring)
+
+  if [[ "$pattern" == "solid" ]]; then
+    filename="svgs/topmark/$shape/${colorstring// /_}.svg";
+    prefix="h";
+  else
+    filename="svgs/topmark/$shape/$pattern/${colorstring// /_}.svg";
+    prefix=${pattern:0:1};
+  fi
+
+  echo "generating $filename";
+  
+  actions="";
+  for ((i=0; i<${#colors[@]}; i++)); do
+    fraction=$(( (i + 1) * 12 / ${#colors[@]} ))
+
+    # Special case for border with only two colors
+    if [[ "$pattern" == "border" && ${#colors[@]} == 2 && $i == 0 ]]; then
+      fraction="2";
     fi
 
-    echo "generating $filename";
+    id="path_fill_${prefix}${fraction}";
+    if [[ "${colors[i]}" != "generic" ]]; then
+      color_value=${color_values[${colors[i]}]};
+      actions="${actions}select-clear;select-by-id:$id;object-set-attribute:style,fill:${color_value};";
+    fi
+  done
 
-    width_topmark=$(xmlstarlet sel -t -v "/_:svg/@width" "generator/topmark/$shape.svg")
-    height_topmark=$(xmlstarlet sel -t -v "/_:svg/@height" "generator/topmark/$shape.svg")
-    
-    x_shift2=$(echo "$x_shift $width $width_topmark" | awk '{printf "%f", $1 + ($2/2) - ($3/2)}'  )
-    y_shift2=$(echo "$y_shift $height $height_topmark" | awk '{printf "%f", $1 + $2 - $3}'  )
-    actions="select-all;transform-translate:$x_shift2,$y_shift2;transform-rotate:$rotation;";
-    for ((i=0; i<${#colors[@]}; i++)); do
-      fraction=$(( (i + 1) * 12 / ${#colors[@]} ))
-
-      # Special case for border with only two colors
-      if [[ "$pattern" == "border" && ${#colors[@]} == 2 && $i == 0 ]]; then
-        fraction="2";
-      fi
-
-      id="path_fill_${prefix}${fraction}";
-      if [[ "${colors[i]}" != "generic" ]]; then
-        color_value=${color_values[${colors[i]}]};
-        actions="${actions}select-clear;select-by-id:$id;object-set-attribute:style,fill:${color_value};";
-      fi
-    done
-
-    inkscape \
-      --actions="$actions" \
-      --export-plain-svg --export-filename="$filename" \
-      "generator/topmark/$shape.svg"
-    
-    xmlstarlet ed -L \
-      -u "/_:svg/@width" -v "$width" \
-      -u "/_:svg/@height" -v "$height" \
-      "$filename"
-  done <&3;
-
-done
+  inkscape \
+    --actions="$actions" \
+    --export-plain-svg --export-filename="$filename" \
+    "generator/topmark/$shape.svg"
+  
+done < "generator/topmark/topmarks.txt";

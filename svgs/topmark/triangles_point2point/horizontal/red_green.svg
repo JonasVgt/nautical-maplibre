@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="37.375"
+   height="67.75"
+   id="svg2"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title2984">Q9: Topmark, triangles</title>
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Q9: Topmark, triangles</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <path
+     d="M 3.3066406,1.8652344 18.677734,33.244141 34.365234,1.8652344 Z M 18.654297,34.697266 2.9726563,65.884766 H 34.373047 Z"
+     style="fill:#00d400"
+     id="path_fill_h12" />
+  <path
+     d="M 3.3066406,1.8652344 18.677734,33.244141 34.365234,1.8652344 Z"
+     style="fill:#d40000"
+     id="path_fill_h6" />
+  <path
+     d="M 0.25,0 C 6.0352015,11.467078 11.97321,23.832719 16.875,33.875 11.392038,45.098388 5.3047871,56.658173 0,67.75 H 37.375 C 31.907673,56.584054 26.101054,45.108358 20.46875,33.84375 25.96765,22.588737 32.060543,11.219416 37.34375,0 Z M 5.125,3 H 32.53125 L 18.6875,30.6875 Z M 18.65625,37.21875 32.53125,64.75 H 4.8125 L 18.65625,37.205508 Z"
+     id="path_stroke"
+     style="display:inline" />
+</svg>
