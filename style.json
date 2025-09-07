@@ -17,11 +17,18 @@
       "paint": {"background-color": "rgba(232, 200, 129, 1)"}
     },
     {
-      "id": "water",
+      "id": "water_fill",
       "type": "fill",
       "source": "nautical",
       "source-layer": "water",
       "paint": {"fill-color": "rgba(150, 214, 234, 1)"}
+    },
+    {
+      "id": "water_boundary",
+      "type": "line",
+      "source": "nautical",
+      "source-layer": "water",
+      "paint": {"line-width": 0.5}
     },
     {
       "id": "landuse_residential",
