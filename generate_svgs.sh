@@ -47,8 +47,8 @@ for name in "${names[@]}"; do
     inkscape \
       --actions="$actions" \
       --export-plain-svg --export-filename="$filename" \
-      "svgs/$name/base.svg"
-  done < "svgs/$name/colors.txt"
+      "generator/$name.svg"
+  done < "generator/$name-colors.txt"
 
 done
 
