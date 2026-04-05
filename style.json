@@ -5,7 +5,7 @@
   "sources": {
     "nautical": {
       "type": "vector",
-      "url": "pmtiles://https://tiles.jonasvoigt.de/planet.pmtiles"
+      "url": "https://tiles.jonasvoigt.de/services/nautical"
     }
   },
   "sprite": "https://jonasvgt.github.io/nautical-maplibre/sprites/nautical",
