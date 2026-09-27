@@ -1,0 +1,33 @@
+tables:
+  metadata_beacon_buoy:
+    type: point
+    columns:
+    - name: osm_id
+      type: id
+    - name: geometry
+      type: geometry
+    - name: name
+      key: name
+      type: string
+    - name: name_en
+      key: name:en
+      type: string
+    - name: type
+      key: seamark:type
+      type: string
+    - name: tags
+      type: hstore_tags
+    mapping:
+      seamark:
+        type:
+        - beacon_cardinal
+        - beacon_isolated_danger
+        - beacon_lateral
+        - beacon_safe_water
+        - beacon_special_purpose
+        - buoy_cardinal
+        - buoy_installation
+        - buoy_isolated_danger
+        - buoy_lateral
+        - buoy_safe_water
+        - buoy_special_purpose
