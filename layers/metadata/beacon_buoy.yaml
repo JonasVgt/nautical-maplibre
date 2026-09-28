@@ -1,16 +1,15 @@
 layer:
   id: "metadata_beacon_buoy"
   description: |
-      All the metadata of beacons and buoys in OSM
+    Additional metadata of beacons and buoys to be shown when selecting the object
   fields:
-    class: The general type of beacon / buoy
-    subclass: The subtype of beacon / buoy
-    shape: The shape of the beacon / buoy
-    pattern: The colorpattern of the beacon / buoy
-    colour: The color of the beacon / buoy
-    topmark_shape: The shape of the topmark
-    topmark_pattern: The colorpattern of the topmark
-    topmark_colour: The color of the topmark
+    name: The OSM [`name`](http://wiki.openstreetmap.org/wiki/Key:name) value of the place. Language-specific values are in `name:xx`.
+    name_en: English name `name:en` if available, otherwise `name`. This is deprecated and will be removed in a future release in favor of `name:en`.
+    name_de: German name `name:de` if available, otherwise `name` or `name:en`. This is deprecated and will be removed in a future release in favor of `name:de`.
+    type: The general type of beacon / buoy (value of the [`seamark:type`](https://wiki.openstreetmap.org/wiki/Key:seamark:type) tag)
+    topmark_shape: The shape of the topmark (value of the [`seamark:topmark:shape`](https://wiki.openstreetmap.org/wiki/Key:seamark:topmark:shape) tag)
+    topmark_pattern: The pattern of the topmark (value of the [`seamark:topmark:colour_pattern`](https://wiki.openstreetmap.org/wiki/Key:seamark:topmark:colour_pattern) tag)
+    topmark_colour: The colour of the topmark (value of the [`seamark:topmark_colour`](https://wiki.openstreetmap.org/wiki/Key:seamark:topmark:colour) tag)
 datasources:
   - type: imposm3
     mapping_file: ./mapping.yaml
