@@ -18,8 +18,7 @@ tables:
     - name: tags
       type: hstore_tags
     mapping:
-      seamark:
-        type:
+      seamark:type:
         - beacon_cardinal
         - beacon_isolated_danger
         - beacon_lateral
