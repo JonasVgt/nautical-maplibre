@@ -15,6 +15,15 @@ tables:
     - name: type
       key: seamark:type
       type: string
+    - name: topmark_shape
+      key: seamark:topmark:shape
+      type: string
+    - name: topmark_pattern
+      key: seamark:topmark:colour_pattern
+      type: string
+    - name: topmark_colour
+      key: seamark:topmark:colour
+      type: string
     - name: tags
       type: hstore_tags
     mapping:
